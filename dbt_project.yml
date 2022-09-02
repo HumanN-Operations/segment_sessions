@@ -1,4 +1,4 @@
-name: 'segment'
+name: 'segment_sessions'
 version: '0.7.0'
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 config-version: 2
