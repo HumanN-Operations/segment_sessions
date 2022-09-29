@@ -29,7 +29,8 @@
     'referrer' : 'referrer',
     'referrer_host' : 'referrer_host',
     'device' : 'device',
-    'device_category' : 'device_category'
+    'device_category' : 'device_category',
+    'ip' : 'ip'
     } %}
 
 {% set last_values = {
