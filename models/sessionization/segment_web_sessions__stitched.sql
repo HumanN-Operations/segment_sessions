@@ -30,6 +30,8 @@ joined as (
     select
 
         sessions.*,
+    
+        id_stitching.user_id as user_id,
 
         coalesce(id_stitching.user_id, sessions.anonymous_id)
             as blended_user_id
